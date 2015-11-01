@@ -19,7 +19,7 @@ Az órai cloud9 projectből indultam és egészítettem ki az elvárt dolgokkal.
 
 ### A feladat rövid leírása
 
-A raktár bevételezése című feladatot választottam. Lehetőség van regisztrációra és bejelentkezésre. A raktárkészlet feltöltésére és a raktár áttekintésére is. Lehet szerkeszteni, illetve törölni. A kezelőfelület csak bejelentkezés után érhető el.
+A raktár bevételezése című feladatot választottam. Lehetőség van regisztrációra és bejelentkezésre. A raktárkészlet feltöltésére és a raktár áttekintésére is. Lehet szerkeszteni, illetve törölni. A kezelőfelület csak bejelentkezés után érhető el. A két modell egy-sok kapcsolatban a felhasználó és a raktárbejegyzések, hiszen egy felhasználóhoz több raktárbejegyzés is tartozhat.
 
 ### Raktárkészlet feltöltése
 
@@ -43,7 +43,6 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 - Bejegyezve (dátum)
 - Szerkesztés
 - Törlés
-
 
 ### Szerkesztés
 - Minden bejegyzett árú szerkeszthető.
