@@ -50,6 +50,10 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 ### Törlés
 - Minden bejegyzett árú törölhető.
 
+### Implementáció
+
+A project a cloud9 (https://c9.io) segítségével készült, amely egy remek internetes fejlesztői környezet. A program tartalmazza a controllereket, a modelleket, a megjelenő oldalakat (views mappa). A funkciók javascriptben lettek megírva az órán tanultak alapján. A megjelenő oldalakat hbs kiterjesztésűek, ami igazából htmlre épül.
+
 ### A project githubon és Herokun is elérhető
 
 A projectet klónoztam githubra és feltöltöttem Herokura.
@@ -57,5 +61,15 @@ A projectet klónoztam githubra és feltöltöttem Herokura.
 - github: https://github.com/papophone/alkalmazasok
 - Heroku: https://alkfejlraktar.herokuapp.com/
 
+### Felhasználói dokumentáció
+
+#### Futtatás
+Mivel egy nem túl gépigényes alkalmazásról van szó, ezért minden netezni képes számítógépről könnyedén futtatható.
+
+#### Telepítés
+A github project a https://github.com/papophone/alkalmazasok címen érhető el és a jobb oldalt található ,,Download as zip" gomb segítségével tölhető le. Ezután igényel egy kicsomagolást, miután localhoston futtatható lesz.
+
+#### A program használata
+Localhostra telepítés után könnyedén szerkeszthető és újra felhasználható.
 
 
