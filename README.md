@@ -36,19 +36,19 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 - Szintén kötelező mező, amely a termék leírását tartalmazza.
 
 ### A raktár áttekintése
--Leírás
--Összeg
--Jelleg (típus)
--Bejegyezve (dátum)
--Szerkesztés
--Törlés
+- Leírás
+- Összeg
+- Jelleg (típus)
+- Bejegyezve (dátum)
+- Szerkesztés
+- Törlés
 
 
 ### Szerkesztés
--Minden bejegyzett árú szerkeszthető.
+- Minden bejegyzett árú szerkeszthető.
 
 ### Törlés
--Minden bejegyzett árú törölhető.
+- Minden bejegyzett árú törölhető.
 
 A projectet klónoztam githubra és feltöltöttem Herokura.
 ####Elérhetőségek: 
