@@ -32,6 +32,7 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 
 #### Összeg
 - Kötelező mező az ár.
+
 #### Leírás
 - Szintén kötelező mező, amely a termék leírását tartalmazza.
 
