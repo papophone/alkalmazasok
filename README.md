@@ -18,9 +18,9 @@
 A raktár bevételezése című feladatot választottam. Lehetőség van regisztrációra és bejelentkezésre is. A raktárkészlet feltöltésére és a raktár áttekintésére is. Lehet szerkeszteni illetve törölni. A kezelőfelület csak bejelentkezés után érhető el.
 
 A projectet klónoztam githubra és feltöltöttem Herokura.
-####Elérhetőségek:  
-            - github: https://github.com/papophone/alkalmazasok
-            - Heroku: https://alkfejlraktar.herokuapp.com/
+####Elérhetőségek: 
+- github: https://github.com/papophone/alkalmazasok
+- Heroku: https://alkfejlraktar.herokuapp.com/
 
 
 
