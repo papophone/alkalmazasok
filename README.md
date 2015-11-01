@@ -51,6 +51,8 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 ### Törlés
 - Minden bejegyzett árú törölhető.
 
+### A project githubon és Herokun is elérhető
+
 A projectet klónoztam githubra és feltöltöttem Herokura.
 ####Elérhetőségek: 
 - github: https://github.com/papophone/alkalmazasok
