@@ -1,0 +1,191 @@
+{
+  "data": {
+    "budget": [
+      {
+        "status": "pending",
+        "osszeg": "150000",
+        "description": "Jó kis melo!",
+        "date": "2015-10-31T22:27:11.573Z",
+        "createdAt": "2015-10-31T22:27:11.574Z",
+        "updatedAt": "2015-10-31T22:27:11.574Z",
+        "id": 1
+      }
+    ],
+    "error": [],
+    "user": [
+      {
+        "surname": "Harry",
+        "forename": "Potter",
+        "neptun": "azon",
+        "password": "$2a$10$swthTfBCHneevjpmJjZ6r.tsO/mKmNIsp7JlSDT9dh/Dgul7DDEPy",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-31T22:26:50.639Z",
+        "updatedAt": "2015-10-31T22:26:50.640Z",
+        "id": 1
+      },
+      {
+        "surname": "qqq",
+        "forename": "qqq",
+        "neptun": "qqq",
+        "password": "$2a$10$a6BwpSTSYT1i7Rd5otXUYudvdj2sdXyvLHVb/Eu6ee9UC9sC3kM0O",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-01T10:16:48.706Z",
+        "updatedAt": "2015-11-01T10:16:48.706Z",
+        "id": 2
+      },
+      {
+        "surname": "ferenc",
+        "forename": "ferenc",
+        "neptun": "ferenc",
+        "password": "$2a$10$MDtK7L34yiia71Ht44yZvO6X7.OghpoTVsc2d2Ns1aE9hNzFMczB.",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-01T10:33:48.574Z",
+        "updatedAt": "2015-11-01T10:33:48.574Z",
+        "id": 3
+      },
+      {
+        "surname": "asdsd",
+        "forename": "asdsd",
+        "neptun": "asdsd",
+        "password": "$2a$10$kfcoDMux/8dGfVgcnQseyebtFM5dTmBBXrxy4n.X/G/w0cogqpeI6",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-01T10:44:00.074Z",
+        "updatedAt": "2015-11-01T10:44:00.074Z",
+        "id": 4
+      }
+    ]
+  },
+  "schema": {
+    "budget": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "osszeg": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "error": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "osszeg": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "budget": {
+      "id": 1
+    },
+    "user": {
+      "id": 4
+    },
+    "error": {
+      "id": 7
+    }
+  }
+}

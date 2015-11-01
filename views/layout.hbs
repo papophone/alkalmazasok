@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>Raktár</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/lib/bootswatch/sandstone/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                
+                <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Raktár bevételezés</a>
+                    </div>
+                
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                      <ul class="nav navbar-nav navbar-right">
+                          {{#if loggedIn}}
+                          <li><a href="/logout">Kilépés</a></li>
+                          {{else}}
+                          <li><a href="/login">Bejelentkezés</a></li>
+                          {{/if}}
+                      </ul>
+                      {{#if loggedIn}}
+                        <ul class="nav navbar-nav">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Adminisztráció <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="/raktar/new">Raktárkészlet feltöltése</a></li>
+                              <li class="divider"></li>
+                              <li><a href="/raktar/list">Raktár áttekintő</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <p class="navbar-text navbar-right">Üdv, {{user.forename}}!</p>
+                      {{/if}}
+                    </div>
+                  </div>
+                </nav>
+
+                {{{body}}}
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
