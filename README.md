@@ -44,11 +44,18 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 - Szerkesztés
 - Törlés
 
+### Új bejegyzés
+- Új bejegyzés vehető fel a Leírás, Összeg és a Típus mezők kitöltésével.
+
 ### Szerkesztés
-- Minden bejegyzett árú szerkeszthető.
+- Minden bejegyzett árú Leírás, Összeg és Típus mezője szerkeszthető.
 
 ### Törlés
 - Minden bejegyzett árú törölhető.
+
+## Modell
+- Felhasználó: Vezetéknév, Keresztnév, Neptun-kód, Jelszó, Avatar URL
+- Bejegyzés: Típus, Összeg, Típus
 
 ### Implementáció
 
@@ -64,7 +71,7 @@ A projectet klónoztam githubra és feltöltöttem Herokura.
 ### Felhasználói dokumentáció
 
 #### Futtatás
-Mivel egy nem túl gépigényes alkalmazásról van szó, ezért minden netezni képes számítógépről könnyedén futtatható.
+A futtatáshoz elég egy böngésző, amely képes kezelni a javascriptet, nem igényel egyéb erőforrást.
 
 #### Telepítés
 A github project a https://github.com/papophone/alkalmazasok címen érhető el és a jobb oldalt található ,,Download as zip" gomb segítségével tölhető le. Ezután igényel egy kicsomagolást, miután localhoston futtatható lesz.
