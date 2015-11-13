@@ -64,6 +64,9 @@ Minden az oldalra nem regisztrált felhasználó vendég, akinek megfelelő beje
 - Riporter: bejelentkezés után joga van, megtekinteni a listaoldalt, új bejegyzést írni, szerkeszteni, illetve törölni.
 - Operátor: lényegében azt tudja, mint a riporter.
 
+### Tesztelés
+
+Az alkalmazasok/models/user.test.js fájl teszteli a user-t.
 
 ### Implementáció
 
