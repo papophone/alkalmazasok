@@ -66,7 +66,8 @@ Minden az oldalra nem regisztrált felhasználó vendég, akinek megfelelő beje
 
 ### Tesztelés
 
-Az alkalmazasok/models/user.test.js fájl teszteli a user-t.
+- Az alkalmazasok/models/user.test.js fájl teszteli a user-t.
+- A felületet Selenium segítségével könnyedén lehet tesztelni.
 
 ### Implementáció
 
