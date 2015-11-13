@@ -44,27 +44,35 @@ A raktár bevételezése című feladatot választottam. Lehetőség van regiszt
 - Szerkesztés
 - Törlés
 
-### Új bejegyzés
+#### Új bejegyzés
 - Új bejegyzés vehető fel a Leírás, Összeg és a Típus mezők kitöltésével.
 
-### Szerkesztés
+#### Szerkesztés
 - Minden bejegyzett árú Leírás, Összeg és Típus mezője szerkeszthető.
 
-### Törlés
+#### Törlés
 - Minden bejegyzett árú törölhető.
 
-## Modell
+### Modell
 - Felhasználó: Vezetéknév, Keresztnév, Neptun-kód, Jelszó, Avatar URL
 - Bejegyzés: Típus, Összeg, Típus
+
+### A szerepkörök funkciói
+Minden az oldalra nem regisztrált felhasználó vendég, akinek megfelelő bejelentkezési adatok birtokában joga van bejelentkezni. Regisztrálás után riporter jogot kap a felhasználó, illetve bekerült egy operátor jog is bővítés céljából.
+
+- Vendég: joga van a megfelelő adatok birtokában bejelentkezni, regisztrálni.
+- Riporter: bejelentkezés után joga van, megtekinteni a listaoldalt, új bejegyzést írni, szerkeszteni, illetve törölni.
+- Operátor: lényegében azt tudja, mint a riporter.
+
 
 ### Implementáció
 
 A project a cloud9 (https://c9.io) segítségével készült, amely egy remek internetes fejlesztői környezet. A program tartalmazza a controllereket, a modelleket, a megjelenő oldalakat (views mappa). A funkciók javascriptben lettek megírva az órán tanultak alapján. A megjelenő oldalakat hbs kiterjesztésűek, ami igazából htmlre épül.
 
 ### A project githubon és Herokun is elérhető
-
 A projectet klónoztam githubra és feltöltöttem Herokura.
-####Elérhetőségek: 
+
+####Ezek az alábbi linkeken érhetőek el:
 - github: https://github.com/papophone/alkalmazasok
 - Heroku: https://alkfejlraktar.herokuapp.com/
 
